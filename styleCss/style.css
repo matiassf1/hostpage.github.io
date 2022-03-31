@@ -1,0 +1,202 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* HEADER Y BARRA NAV  */
+
+header {
+    background-image: url(../imagenes/ondas.png), linear-gradient(237deg, #46b3ff 0%, #1f5ae4 100%);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 850px;
+    background-size: contain;
+}
+
+
+.menu {
+    background: #fff;
+    padding: 9px 20px;
+}
+
+.menu .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+nav ul li a {
+color: #000;
+padding: 10px;
+}
+
+nav ul li a:hover {
+    background-size: 2px 20px;
+    background-color: rgb(190, 217, 252);
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Header contenido principal */
+
+header .contenedor-inicio {
+    display: flex;
+    justify-content: center;
+    margin: 9vh 0;
+}
+
+header .titular, header .imagen {
+    width: 40%;
+
+}
+
+header h1 {
+    font-family: 'Rubik';
+    font-size: 52px;
+    color: #fff;
+    text-shadow: 1px 2px 50px #000;
+}
+
+header p {
+    color:#fff;
+    line-height: 30px;
+}
+
+header img {
+    width: 100%;
+}
+
+.boton {
+    background-color: #253547;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 7px;
+    font-size: 14px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+/* dominios */
+
+.dominios {
+    display: flex;
+}
+.dominios li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+span.punto{
+    color: #1776ff;
+    font-size: 24px;
+}
+
+span.dominio {
+color: #000;
+font-size: 24px;
+font-weight: bold;
+}
+
+span.precioAnio {
+    color: #999;
+    font-size: 14px;
+}
+
+/* FIN DEL HEADER */
+
+
+/* SECCION SERVICES */
+#services {
+     padding-top: 120px;
+
+}
+#services .contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+#services .titular {
+    width: 49%;
+}
+#services .service {
+    width: 22%;
+    background-color: #fff;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 25px 25px 25px 25px;
+    padding: 20px 30px;
+}
+#services h2 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 14px;
+    color: #ff8f00;
+    letter-spacing: 1px;
+}
+#services h3 {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#services .boton {
+    background: #2970fa;
+    padding: 15px 38px;
+    letter-spacing: 1px;
+
+}
+
+.service h4 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Rubik';
+}
+
+.service p {
+    columns: #787878;
+    font-size: 11px;
+    line-height: 28px;
+}
+
+.service a {
+    color: #2970fa;
+    text-decoration: none;
+    font-family: 'Rubik';
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.contenedor__services__2{
+    margin-top: 50px;
+}
+
+#services #uno {
+    margin-left: 140px ;
+}
+
+.contenedor__services__2 #dos {
+    position: relative;
+    top: -200px;
+}
